@@ -67,7 +67,7 @@ else:
 
 # if嵌套[了解]
 # a = "帅"
-# b = "不善良"
+# b = "善良"
 # c = "有腹肌"
 #
 # if a == "帅":
@@ -76,15 +76,15 @@ else:
 #             print("处对象")
 
 # match...case..., python3.10以上版本的新特性, 也属于分支结构的一种
-# x = 2
-#
-# match x:
-#     case 1:
-#         print("x is 1")
-#     case 2:
-#         print("x is 2")
-#     case 3:
-#         print("x is 3")
+x = 4
+
+match x:
+    case 1:
+        print("x is 1")
+    case 2:
+        print("x is 2")
+    case 3:
+        print("x is 3")
 
 
 
