@@ -1,0 +1,1 @@
+{'method': 'get', 'url': 'http://192.168.10.131:8888/api/private/v1/reports/type/1', 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyNDUzODQsImV4cCI6MTczMTMzMTc4NH0.J4ggHams3oem-u4Yn11gzG4R8jMPkyhPaQ1tj361wfA'}, 'params': None, 'data': None, 'json': None, 'files': None}

@@ -1,0 +1,1 @@
+{'method': 'put', 'url': 'http://192.168.10.131:8888/api/private/v1/roles/43', 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzEyNDUzODQsImV4cCI6MTczMTMzMTc4NH0.J4ggHams3oem-u4Yn11gzG4R8jMPkyhPaQ1tj361wfA'}, 'params': None, 'data': {'roleName': '小boss'}, 'json': None, 'files': None}
