@@ -8,7 +8,7 @@ driver.get("file:///D:/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/9-UI%E8%87%AA%E5%8A%
 
 # 需求: 打开A页面, 使用隐式等待定位 "延时加载的输入框", 并输入 admin
 driver.implicitly_wait(10)
-driver.driver.find_element(By.CSS_SELECTOR,"input[placeholder='延时加载的输入框']").send_keys("admin")
+driver.find_element(By.CSS_SELECTOR,"input[placeholder='延时加载的输入框']").send_keys("admin")
 
 time.sleep(3)
 driver.quit()
