@@ -1,0 +1,14 @@
+{
+  "login_001_account_not_exist": {
+    "username": "18800000000",
+    "password": "123456",
+    "code": "8888",
+    "msg": "账号不存在!"
+  },
+  "login_002_password_error": {
+    "username": "17150312012",
+    "password": "error",
+    "code": "8888",
+    "msg": "密码错误!"
+  }
+}
