@@ -1,0 +1,14 @@
+{
+  "add_001_1_plus_1": {
+    "data": [1, 1],
+    "result": 2
+  },
+  "add_002_1_plus_2": {
+    "data": [1, 2],
+    "result": 3
+  },
+  "add_003_1_plus_2_plus_3": {
+    "data": [1, 2, 3],
+    "result": 6
+  }
+}
