@@ -20,6 +20,7 @@ class RedisManager(object):
     def get_string(self,key):
         return self.conn.get(key)
 
+
 if __name__ == '__main__':
     redis_test = RedisManager(host="192.168.10.161",db=1)
     redis_test.set_string("age2",100)
