@@ -1,0 +1,61 @@
+{
+  "76e25ec7c6295726a1977af65a024b48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98b9ad0ce7a609d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723457612847,
+        "stop" : 1723457616312,
+        "duration" : 3465
+      }
+    } ]
+  },
+  "fe608a92593a4d5c240b1b3bce8adee1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63097a21431e313b",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\nCase\\test_02_purchase.py:27: AssumptionFailure\n>>\tpytest.assume(num2 - num1 == 1)  # 断言新增之后页面上会多一条数据\nAssertionError: assert False",
+      "time" : {
+        "start" : 1723457628523,
+        "stop" : 1723457643917,
+        "duration" : 15394
+      }
+    } ]
+  },
+  "bb48625be43c6856f2ac59236cc86c69" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bc564967e290145",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\nCase\\test_02_purchase.py:15: AssumptionFailure\n>>\tpytest.assume(num2-num1 == 1)   # 断言新增之后页面上会多一条数据\nAssertionError: assert False",
+      "time" : {
+        "start" : 1723457617847,
+        "stop" : 1723457624789,
+        "duration" : 6942
+      }
+    } ]
+  }
+}

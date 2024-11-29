@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\nCase\\test_02_purchase.py:15: AssumptionFailure\n>>\tpytest.assume(num2-num1 == 1)   # 断言新增之后页面上会多一条数据\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_purchase_apply",
+        "uid" : "3bc564967e290145",
+        "parentUid" : "456b587fda8a8d9671439e1248184c55",
+        "status" : "failed",
+        "time" : {
+          "start" : 1723457617847,
+          "stop" : 1723457624789,
+          "duration" : 6942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "456b587fda8a8d9671439e1248184c55"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\nCase\\test_02_purchase.py:27: AssumptionFailure\n>>\tpytest.assume(num2 - num1 == 1)  # 断言新增之后页面上会多一条数据\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_purchase_order",
+        "uid" : "63097a21431e313b",
+        "parentUid" : "7d20cb7c313cd35511a197fcd8433bec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1723457628523,
+          "stop" : 1723457643917,
+          "duration" : 15394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d20cb7c313cd35511a197fcd8433bec"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

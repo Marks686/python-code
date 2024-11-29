@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-J99CE7C3",
+    "children" : [ {
+      "name" : "49044-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "98b9ad0ce7a609d9",
+        "parentUid" : "e1968b5cde59f96ae545b5f741dd7366",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723457612847,
+          "stop" : 1723457616312,
+          "duration" : 3465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_purchase_order",
+        "uid" : "63097a21431e313b",
+        "parentUid" : "e1968b5cde59f96ae545b5f741dd7366",
+        "status" : "failed",
+        "time" : {
+          "start" : 1723457628523,
+          "stop" : 1723457643917,
+          "duration" : 15394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_purchase_apply",
+        "uid" : "3bc564967e290145",
+        "parentUid" : "e1968b5cde59f96ae545b5f741dd7366",
+        "status" : "failed",
+        "time" : {
+          "start" : 1723457617847,
+          "stop" : 1723457624789,
+          "duration" : 6942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1968b5cde59f96ae545b5f741dd7366"
+    } ],
+    "uid" : "cbf3985b59abf3da44126ff712e99c57"
+  } ]
+}
