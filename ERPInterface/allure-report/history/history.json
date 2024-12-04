@@ -1,0 +1,99 @@
+{
+  "af4e04d233bc0e1d132df8d2d6db5e5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6a70da2b60655b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723540741038,
+        "stop" : 1723540741490,
+        "duration" : 452
+      }
+    } ]
+  },
+  "e1ff82dff43b3a0d7b47566e223197d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1559917ae614cd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723540741523,
+        "stop" : 1723540741568,
+        "duration" : 45
+      }
+    } ]
+  },
+  "29a2e382279fa4e49ee3aaac125461fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b20b8eea946c420",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\nCase\\test_02_member.py:17: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"code\") == int(code))\nAssertionError: assert False\n\nCase\\test_02_member.py:18: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"message\") == message)\nAssertionError: assert False",
+      "time" : {
+        "start" : 1723540741601,
+        "stop" : 1723540741654,
+        "duration" : 53
+      }
+    } ]
+  },
+  "29a68185b2ebe6c7ade570287e7f3d3f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25f40e70403f758f",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\nCase\\test_02_member.py:17: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"code\") == int(code))\nAssertionError: assert False\n\nCase\\test_02_member.py:18: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"message\") == message)\nAssertionError: assert False",
+      "time" : {
+        "start" : 1723540741795,
+        "stop" : 1723540741912,
+        "duration" : 117
+      }
+    } ]
+  },
+  "297fd936b656a0b69c16bed6117dfb6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c287dc5aa54d202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723540741982,
+        "stop" : 1723540742427,
+        "duration" : 445
+      }
+    } ]
+  }
+}

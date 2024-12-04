@@ -1,0 +1,104 @@
+{
+  "uid" : "25f40e70403f758f",
+  "name" : "test_02_add_member[手机号不符合规则-92779-1982716258-301-数据写入异常]",
+  "fullName" : "Case.test_02_member#test_02_add_member",
+  "historyId" : "29a68185b2ebe6c7ade570287e7f3d3f",
+  "time" : {
+    "start" : 1723540741795,
+    "stop" : 1723540741912,
+    "duration" : 117
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\nCase\\test_02_member.py:17: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"code\") == int(code))\nAssertionError: assert False\n\nCase\\test_02_member.py:18: AssumptionFailure\n>>\tpytest.assume(GetKeywords.get_keyword(result,\"message\") == message)\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               2 Failed Assumptions:\nE               \nE               Case\\test_02_member.py:17: AssumptionFailure\nE               >>\tpytest.assume(GetKeywords.get_keyword(result,\"code\") == int(code))\nE               AssertionError: assert False\nE               \nE               Case\\test_02_member.py:18: AssumptionFailure\nE               >>\tpytest.assume(GetKeywords.get_keyword(result,\"message\") == message)\nE               AssertionError: assert False\n\nD:\\py3\\lib\\site-packages\\six.py:718: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "member",
+    "time" : {
+      "start" : 1723540741742,
+      "stop" : 1723540741793,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1723540740919,
+      "stop" : 1723540741037,
+      "duration" : 118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_member"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-J99CE7C3"
+  }, {
+    "name" : "thread",
+    "value" : "4892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.test_02_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'301'"
+  }, {
+    "name" : "message",
+    "value" : "'数据写入异常'"
+  }, {
+    "name" : "supplier",
+    "value" : "'92779'"
+  }, {
+    "name" : "telephone",
+    "value" : "'1982716258'"
+  }, {
+    "name" : "title",
+    "value" : "'手机号不符合规则'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "25f40e70403f758f.json",
+  "parameterValues" : [ "'301'", "'数据写入异常'", "'92779'", "'1982716258'", "'手机号不符合规则'" ]
+}
