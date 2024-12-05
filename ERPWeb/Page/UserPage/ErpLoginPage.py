@@ -42,7 +42,7 @@ class ErpLoginPage(Base):
 
     def get_code_text(self):
         """获取验证码的文本"""
-        text = GetImgText(self.get_code_link()).get_img_text()
+        text = GetImgText(self.get_code_link()).get_dddd_text()
         return text
 
     def send_user_name(self,username):
@@ -72,7 +72,7 @@ class ErpLoginPage(Base):
     def common_login(self):
         """公共的登录的逻辑，所有需要登录的都可以从这里获取"""
         self.open_login_url()
-        self.send_user_name("chen-888")
+        self.send_user_name("likaixuan")
         self.send_password("123456Aa")
         self.send_code()
         self.click_button()
@@ -81,7 +81,7 @@ class ErpLoginPage(Base):
 if __name__ == '__main__':
     erp = ErpLoginPage()
     erp.open_login_url()
-    erp.send_user_name("chen-888")
+    erp.send_user_name("likaixuan")
     erp.send_password("123456Aa")
     erp.send_code()
     erp.click_button()
