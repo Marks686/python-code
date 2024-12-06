@@ -1,0 +1,19 @@
+
+https://www.nowcoder.com/share/jump/5791914931733490820108
+SELECT
+    a.video_id,
+    ROUND(SUM(IF(TIMESTAMPDIFF(SECOND, a.start_time, a.end_time) >= b.duration, 1, 0)) / COUNT(a.start_time), 3) AS avg_comp_play_rate
+FROM
+    tb_user_video_log a
+LEFT JOIN
+    tb_video_info b ON a.video_id = b.video_id
+WHERE
+    YEAR(a.start_time) = 2021
+GROUP BY
+    a.video_id
+ORDER BY
+    avg_comp_play_rate DESC;
+
+https://leetcode.cn/problems/recyclable-and-low-fat-products/
+    # Write your MySQL query statement below
+select product_id from Products where low_fats = "Y" and recyclable = "Y"
