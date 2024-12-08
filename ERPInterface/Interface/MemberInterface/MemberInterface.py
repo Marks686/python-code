@@ -32,7 +32,7 @@ class MemberInterface(object):
 if __name__ == '__main__':
     from Interface.UserInterface.LoginInterface import LoginInterface
     from Utils.GetKeywords import GetKeywords
-    res = LoginInterface().tenant_login("chen-888","123456Aa")
+    res = LoginInterface().tenant_login("likaixuan","123456Aa")
     print(res)
     token = GetKeywords.get_keyword(res,"token")
 

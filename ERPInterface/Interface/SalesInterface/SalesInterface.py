@@ -99,7 +99,7 @@ if __name__ == '__main__':
     from Interface.UserInterface.LoginInterface import LoginInterface
     from Utils.GetKeywords import GetKeywords
 
-    res = LoginInterface().tenant_login("chen-888", "123456Aa")
+    res = LoginInterface().tenant_login("likaixuan", "123456Aa")
     headers = {"X-Access-Token": "d240054b50ba41e6a8a948c7e29dcae5_132"}
 
     sales = SalesInterface(headers)

@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+ # -*- coding:utf-8 -*-
 from Utils.SendMethod import SendMethod
 from Utils.Encryption import *
 
@@ -23,5 +23,5 @@ class LoginInterface(object):
 if __name__ == '__main__':
     login = LoginInterface()
     print(login.tenant_login(
-        "chen-888","123456Aa"
+        "likaixuan","123456Aa"
     ))
