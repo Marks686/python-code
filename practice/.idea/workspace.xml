@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cd63ff7-627e-4902-a998-c472317291d6" name="Changes" comment="生成指定大小文件">
+    <list default="true" id="0cd63ff7-627e-4902-a998-c472317291d6" name="Changes" comment="存储过程构造数据">
+      <change afterPath="$PROJECT_DIR$/../ERPInterface/allure-report/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ERPInterface/allure-report/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ERPInterface/allure-report/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ERPInterface/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_2024_12_09/test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +41,7 @@
     &quot;Python.生成指定大小的文件.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/代码Gitee/python-code/ERPInterface&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/代码Gitee/python-code/practice&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -136,13 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733150668009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sql">
+      <option name="closed" value="true" />
+      <created>1733490839578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733490839578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="存储过程构造数据">
+      <option name="closed" value="true" />
+      <created>1733750624727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733750624727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="练习连接redis" />
     <MESSAGE value="RabbitMQ发布订阅模式" />
     <MESSAGE value="生成指定大小文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成指定大小文件" />
+    <MESSAGE value="sql" />
+    <MESSAGE value="存储过程构造数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="存储过程构造数据" />
   </component>
 </project>
