@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+s1="love"
+s2="love"
+
+if [ $s1 == $s2 ]; then
+    echo "equal"
+else
+    echo "not equal"
+fi
+
+if [ -f test4.shell ]; then
+    echo "文件存在"
+else
+    echo "文件不存在"
+fi

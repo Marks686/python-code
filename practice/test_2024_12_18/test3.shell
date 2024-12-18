@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# 查mysl服务的pid
+ps -ef | grep mysql | grep -v grep | grep -v $$ | awk '{print $2}'

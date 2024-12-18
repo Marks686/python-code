@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# lkx
+
+# 变量定义
+name="lkx"
+age=18
+
+# 变量引用
+echo "name: $name"
+echo "age: $age"
+echo $name$age
+
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+if [ $1 -eq 1]; then
+  echo "你输入的是1"
+elif [ $1 -eq 2 ]; then
+  echo "你输入的是2"
+elif [ $1 -eq 3 ]; then
+  echo "你输入的是3"
+else
+  echo "我就不认识了"
+fi
+
